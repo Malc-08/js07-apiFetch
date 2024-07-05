@@ -12,7 +12,7 @@ document.getElementById('fetch-users').addEventListener('click', function() {
 
             const users = data.data;
             const tbody = document.getElementById('user-tbody');
-            tbody.innerHTML = ''; // Clear previous content
+            tbody.innerHTML = ''; 
 
             users.forEach(user => {
                 const row = document.createElement('tr');
